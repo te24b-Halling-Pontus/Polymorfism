@@ -13,7 +13,7 @@ public class Djur {
     }
 
     void äta() {
-        energi += 5;
+        energi += 100;
     }
 
     void spring(int meter) {
@@ -23,7 +23,7 @@ public class Djur {
         }
     }
 
-    String läte() {
+    public String läte() {
         return "djuret låter";
     }
 }
